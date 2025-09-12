@@ -1,5 +1,0 @@
-RewriteEngine On
-
-# Redirect /privacy to privacy.html
-RewriteRule ^privacy/?$ privacy.html [L]
-RewriteRule ^terms/?$ terms.html [L]
