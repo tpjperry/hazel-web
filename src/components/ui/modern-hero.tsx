@@ -72,7 +72,7 @@ const Hero7 = ({
                         />
                     </div>
                     <h1 className="mx-auto max-w-4xl text-center text-3xl font-extrabold lg:text-5xl xl:text-6xl">
-                        <div className="whitespace-nowrap">
+                        <div>
                             Build{' '}
                             <span className="bg-gradient-to-r from-green-500 via-emerald-600 to-teal-600 bg-clip-text text-transparent">
                                 Smarter
