@@ -44,7 +44,7 @@ const Hero7 = ({
     ];
 
     return (
-        <section className="relative py-8 md:py-16 lg:py-24 overflow-hidden">
+        <section className="relative py-6 md:py-10 lg:py-24 overflow-hidden">
             {/* Background food icons */}
             <div className="absolute inset-0 pointer-events-none">
                 {foodIcons.map((item, index) => {
@@ -64,7 +64,7 @@ const Hero7 = ({
             </div>
             <div className="container relative text-center">
                 <div className="mx-auto flex max-w-screen-lg flex-col gap-4">
-                    <div className="mx-auto mb-6">
+                    <div className="mx-auto mb-4">
                         <img
                             src="/assets/Hazel-logo.png"
                             alt="Hazel Logo"
@@ -83,7 +83,7 @@ const Hero7 = ({
                     </h1>
                     <p className="text-balance text-muted-foreground lg:text-lg">{description}</p>
                 </div>
-                <div className="mx-auto mt-6 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
+                <div className="mx-auto mt-4 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
                     <a
                         href={appStoreLinks.googlePlay || '#'}
                         target="_blank"
