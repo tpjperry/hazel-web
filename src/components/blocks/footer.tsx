@@ -19,7 +19,7 @@ function Footer() {
                         </a>
                     </div>
                     <div className="font-medium text-muted-foreground">Perry Heavy Industries Ltd, trading as Ask Hazel.</div>
-                    <div className="text-muted-foreground">Copyright © Perry Heavy Industries Ltd, 2025. All rights reserved.</div>
+                    <div className="text-muted-foreground">Copyright © Perry Heavy Industries Ltd, {new Date().getFullYear()}. All rights reserved.</div>
                 </div>
             </div>
         </footer>
