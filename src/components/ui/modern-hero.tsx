@@ -1,4 +1,3 @@
-import React from 'react';
 import {
     Apple,
     Banana,
@@ -22,7 +21,7 @@ interface Hero7Props {
 }
 
 const Hero7 = ({
-    heading = 'Build Smarter Shopping Lists with Hazel',
+    // heading = 'Build Smarter Shopping Lists with Hazel',
     description = 'Hazel builds you smarter shopping lists at your favourite supermarkets, using AI to match your budget, diet and preference to better alternatives',
     appStoreLinks = {},
 }: Hero7Props) => {
