@@ -5,14 +5,14 @@ function Footer() {
                 <div className="flex flex-col items-center gap-4 text-center text-sm text-muted-foreground">
                     <div className="flex gap-4">
                         <a
-                            href="/privacy-policy.html"
+                            href="/privacy"
                             className="font-bold text-muted-foreground transition-colors hover:text-foreground"
                         >
                             Privacy Policy
                         </a>
                         <span className="text-muted-foreground">|</span>
                         <a
-                            href="/terms-and-conditions.html"
+                            href="/terms"
                             className="font-bold text-muted-foreground transition-colors hover:text-foreground"
                         >
                             Terms and Conditions
